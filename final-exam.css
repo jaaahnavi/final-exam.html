@@ -20,6 +20,7 @@
   position: relative;
   overflow: auto;
 }
+
 .second-column{
   max-width: 650px;
   width: 33.3%;
@@ -42,4 +43,22 @@
     max-width: 500px;
     margin: 0 auto;
     padding-right: 500px;
+}
+
+.h3{
+  font-weight: normal;
+  padding: 0px 0px 2px 2px;
+}
+
+.h2{
+  margin-top: 0px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.border{
+  border-style: solid;
+  border-top: 5px thick #E8E8E8;
+  margin-top: 20px;
+  margin-bottom: 35px;
 }
