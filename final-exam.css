@@ -1,0 +1,45 @@
+.container {
+  max-width: 700px;
+  overflow: auto;
+  margin: 0 auto;
+  background: #ADD8E6;
+  padding: 6px 4px 6px 4px;
+}
+
+.body {
+  background: #8B0000;
+}
+
+.first-column{
+  max-width: 650px;
+  width: 66.6%;
+  float: left;
+  padding: 6px 4px 6px 4px;
+  bottom: 0;
+  right: 0;
+  position: relative;
+  overflow: auto;
+}
+.second-column{
+  max-width: 650px;
+  width: 33.3%;
+  float: left;
+  padding: 6px 4px 6px 4px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media(min-width: 500px){
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .sidebar {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-right: 500px;
+}
